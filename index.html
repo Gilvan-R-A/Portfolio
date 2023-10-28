@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/fontawesome/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Portfólio Gilvan</title>
+</head>
+
+<body>
+
+  <div id="topo">
+    <header class="header">
+      <div class="logo">Gilvan Alves</div>
+      <nav>
+        <ul>
+          <input type="checkbox" id="toggle" />
+          <label for="toggle" class="hamburguer">
+            <div class="trace"></div>
+            <div class="trace"></div>
+            <div class="trace"></div>
+          </label>
+          <div class="menu">
+            <li><a href="#topo">Home</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contatos">Contato</a></li>
+          </div>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+
+      <section id="home">
+        <figure>
+          <img src="/img/meuPerfil.jpg" alt="Gilvan" class="perfil" />
+        </figure>
+        <div class="texto">
+          <p><strong>Gilvan Alves</strong></p>
+          <h1 class="tituloApresentacao">FullStack Developer.</h1>
+          <p class="textoSobre">
+            A resolução de desafios com foco nos resultados e a satisfação dos clientes são minhas maiores motivações.
+          </p>
+          <section class="tecnologias">
+            <div id="tecnologias1">
+              <figure class="tooltip" data-title="Java">
+                <img src="/img/iconeJava.png" alt="Ícone Java" />
+              </figure>
+              <figure class="tooltip" data-title="SpringBoot">
+                <img src="/img/icons8-spring-boot-48.png" alt="Ícone Spring Boot" />
+              </figure>
+              <figure class="tooltip" data-title="DotNet">
+                <img src="/img/dot-net.png" alt="Ícone DotNet" />
+              </figure>
+              <figure class="tooltip" data-title="Angular">
+                <img src="/img/angular.png" alt="Ícone Angular" />
+              </figure>
+            </div>
+            <div id="tecnologias2">
+              <figure class="tooltip" data-title="TypeScript">
+                <img src="/img/typescript.png" alt="Ícone TypeScript" />
+              </figure>
+              <figure class="tooltip" data-title="Html5">
+                <img src="/img/html5.png" alt="Ícone Html" />
+              </figure>
+              <figure class="tooltip" data-title="Css3">
+                <img src="/img/css3.png" alt="Ícone Css" />
+              </figure>
+              <figure class="tooltip" data-title="JavaScript">
+                <img src="/img/javascript.png" alt="Ícone JavaScript" />
+              </figure>
+            </div>
+          </section>
+          <div class="botoesContato">
+            <a href="https://www.linkedin.com/in/gilvan-alves-11ab061a0/" target="_blank" class="botaoLink linkedin"><i
+                class="fa-brands fa-linkedin"></i>Linkedin</a>
+            <a href="https://github.com/Gilvan-R-A" target="_blank" class="botaoLink github"><i
+                class="fa-brands fa-github"></i>GitHub</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="sobre" id="sobre">
+        <h2>Sobre</h2>
+        <div class="apresentacao">
+          <div class="textoApresentacao">
+            <p>Olá, sou <strong>Gilvan Alves</strong>, estou cursando o 4º semestre de <strong>Análise e Desenvolvimento
+                de Sistemas</strong> pela Universidade Estácio de Sá, com conclusão prevista para dezembro de 2024.</p>
+            <p>Estudo tecnologia desde 2019 e sempre me mantenho atualizado, seja através de cursos online, palestras,
+              documentações e tenho focado em <strong>Design Patterns, AWS</strong> e <strong>React</strong>.</p>
+            <p>
+              Já estagiei como Desenvolvedor Frontend utilizando <strong>Angular, Typescript</strong>,
+              <strong>Bootstrap</strong>, <strong>Git</strong> e <strong>Scrum</strong>.
+            </p><br>
+          </div>
+          <img src="./img/perfil5.jpg" id="fotoSobre" alt="foto Gilvan">
+        </div>
+        <div class="skills">
+          <div class="blocoSkills">
+            <h3>Soft Skills</h3>
+            <ul>
+              <li><strong>Trabalho em Equipe</strong></li>
+              <li><strong>Foco nos Resultados</strong></li>
+              <li><strong>Boa Comunicação</strong></li>
+              <li><strong>Proatividade</strong></li>
+              <li><strong>Organização</strong></li>
+              <li><strong>Criatividade</strong></li>
+            </ul>
+          </div>
+          <div class="blocoSkills">
+            <h3>Backend</h3>
+            <ul>
+              <li><strong>Java</strong> </li>
+              <li><strong>C#</strong></li>
+              <li><strong>Node.js</strong></li>
+              <li><strong>Spring Boot</strong> </li>
+              <li><strong>Spring Framework</strong></li>
+            </ul>
+          </div>
+          <div class="blocoSkills">
+            <h3>Frontend</h3>
+            <ul>
+              <li><strong>Angular</strong></li>
+              <li><strong>Typescript</strong></li>
+              <li><strong>Javascript</strong></li>
+              <li><strong>Html</strong></li>
+              <li><strong>Css</strong></li>
+            </ul>
+          </div>
+          <div class="blocoSkills">
+            <h3>Banco de Dados</h3>
+            <li><strong>MySQL</strong></li>
+            <li><strong>MongoDB</strong> </li>
+            <li><strong>SQL Server</strong></li>
+            <li><strong>PostgreSQL</strong></li>
+          </div>
+        </div>
+      </section>
+
+      <section class="projetos" id="projetos">
+        <h2>Projetos</h2>
+        <section class="projetosContainer">
+          <div class="projeto">
+            <div class="descricao">
+              <h3>Course Manager Angular</h3>
+              <p>Página Web de cursos com filtragem dinâmica.</p>
+              <p>Esse projeto foi desenvolvido sob o conceito de <strong>Single Page Aplication, componentização e data
+                  binding do Angular.</strong></p>
+              <a href="https://github.com/Gilvan-R-A/CourseManager-Angular" target="_blank"
+                class="botaoRepositorio">Repositório</a>
+            </div>
+            <figure class="imagem">
+              <img class="imgProjeto" src="/img/course.jpg" alt="Projeto Angular" />
+            </figure>
+          </div>
+          <div class="projeto">
+            <figure class="imagem">
+              <img class="imgProjeto" src="/img/topMagazine.jpg" alt="Top Magazine" />
+            </figure>
+            <div class="descricao">
+              <h3>Top Magazine</h3>
+              <p>Sistema que simula um e-commerce de eletrônicos. O usuário tem acesso ao catálogo de produtos, carrinho
+                de compras e página de checkout. </p>
+              <p>Foi desenvolvido em <strong>Javascript, Vite, Html</strong> e <strong>Tailwind Css.</strong></p>
+              <a href="https://github.com/Gilvan-R-A/Top_Magazine" target="_blank"
+                class="botaoRepositorio">Repositório</a>
+            </div>
+          </div>
+          <div class="projeto">
+            <div class="descricao">
+              <h3>Product System</h3>
+              <p>Sistema Web no qual o usuário pode gerenciar os produtos do seu comércio.</p>
+              <p>Foi desenvolvido em <strong>Java, Springboot, Html, Css, Bootstrap</strong> e <strong>JQuery</strong>
+                integrado com banco de dados <strong>PostgreSQL.</strong></p>
+              <a href="https://github.com/Gilvan-R-A/Product_System" target="_blank"
+                class="botaoRepositorio">Repositório</a>
+            </div>
+            <figure class="imagem">
+              <img class="imgProjeto" src="/img/modalPesquisaProdutos.jpg" alt="Product System" />
+            </figure>
+          </div>
+          <div class="projeto">
+            <figure class="imagem">
+              <img class="imgProjeto" src="/img/Jogo-da-Memoria-Com-Super-Mario.jpg"
+                alt="Jogo da Memória do Super Mário" />
+            </figure>
+            <div class="descricao">
+              <h3>Super Mário Memory Game</h3>
+              <p>Jogo da memória do Super Mário, onde o usuário testa suas habilidades de forma divertida e ainda
+                acumula pontos.</p>
+              <p>Foi desenvolvido em <strong>Javascript, Html</strong> e <strong>Css.</strong></p>
+              <a href="https://github.com/Gilvan-R-A/Super-Mario_Memory-Game" target="_blank"
+                class="botaoRepositorio">Repositório</a>
+            </div>
+          </div>
+          <div class="projeto">
+            <div class="descricao">
+              <h3>Schedule Net</h3>
+              <p>
+                Sistema <strong>C#</strong> para gerenciar os contatos de uma agenda. O usuário tem autonomia para
+                cadastrar, visualizar, atualizar ou excluir seus contatos.
+              </p>
+              <p>Foi desenvolvido com <strong>Asp .NET MVC, Entity Framework</strong> e <strong>SQL Server.</strong></p>
+              <a href="https://github.com/Gilvan-R-A/Schedule_Net" target="_blank"
+                class="botaoRepositorio">Repositório</a>
+            </div>
+            <figure class="imagem">
+              <img class="imgProjeto" src="/img/Agenda.jpg" alt="Agenda em .NET" />
+            </figure>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <footer id="contatos" class="footer">
+      <section class="contatos">
+        <h2>Contatos</h2>
+        <ul class="linksContato">
+          <li>
+            <a href="mailto:gilvan.office@gmail.com">
+              <i class="fa-solid fa-envelope"></i>
+              <p>E-mail</p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/gilvan-alves-11ab061a0/" target="_blank">
+              <i class="fa-brands fa-linkedin"></i>
+              <p>Linkedin</p>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/Gilvan-R-A" target="_blank">
+              <i class="fa-brands fa-github"></i>
+              <p>GitHub</p>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <hr>
+      <p class="autor">&copy 2023 - Gilvan Alves</p>
+    </footer>
+  </div>
+
+</body>
+
+</html>
