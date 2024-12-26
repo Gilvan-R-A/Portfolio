@@ -6,7 +6,7 @@
 
 ![Capa do Portfólio ](img/capaPortfolio.jpg) 
 
-## ⚡ Principais Tecnologias utlizadas:      
+## ⚡ Principais Tecnologias utilizadas:      
 
 - Backend: **Java, Spring Boot, Spring Framework, C#, Node.js**
 - Frontend: **Angular, HTML, CSS, Javascript e Typescript**   
